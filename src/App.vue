@@ -1,15 +1,16 @@
-<script setup lang="ts">
-import NavBar from './components/NavBar.vue'
-import Carrossel from './components/Carrossel.vue';
+<script>
+import { RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    NavBar
+  }
+}
 </script>
 
 <template>
-  <router-view/>
-  
   <NavBar/>
-  <Carrossel/>
+  <router-view />
 </template>
-
-<style scoped>
-
-</style>
