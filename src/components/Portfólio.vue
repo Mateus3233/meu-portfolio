@@ -29,7 +29,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      <img src="C:\Users\aluno\Documents\meu-portfolio\src\assets\img\imagem.png" alt="Imagem de construção" width="200" height="150">
+      <img src="../assets/img/imagem.png" alt="Imagem de construção" width="200" height="150">
         <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro simples para o usuário ter acesso aos produtos de beleza e estética.</strong>
       </div>
     </div>
@@ -42,7 +42,7 @@
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      <img src="C:\Users\aluno\Documents\meu-portfolio\src\assets\img\imagem2.png" alt="Imagem de construção" width="200" height="150">
+      <img src="../assets/img/imagem2.png" alt="Imagem de construção" width="200" height="150">
         <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro para o usuário acessar os produtos de materiais de construção.</strong> 
       </div>
     </div>
