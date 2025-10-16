@@ -2,7 +2,8 @@
  export default {
   name: 'Portfólio'
  }
- import imagem from '../assets/img/imagem.png';
+ import imagem from '@/assets/img/imagem.png';
+  import imagem2 from '@/assets/img/imagem2.png';
 </script>
 
 <template>
