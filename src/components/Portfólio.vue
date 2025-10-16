@@ -2,6 +2,7 @@
  export default {
   name: 'Portfólio'
  }
+ import imagem from '../assets/img/imagem.png';
 </script>
 
 <template>
