@@ -5,72 +5,63 @@
 </script>
 
 <template>
-  <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Webpack</title>
-  </head>
-  <body>
     <div class="container py-4 px-3 mx-auto">
-      <h1>Meu Portfólio</h1>
-     <description>Bem-vindo ao meu portfólio!
-      </description>
+        <h1>Meu Portfólio</h1>
+        <description>Bem-vindo ao meu portfólio!</description>
     </div>
-  </body>
-</html>
-  <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-       Projeto 1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <img src="../assets/img/imagem.png" alt="Imagem de construção" width="200" height="150">
-        <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro simples para o usuário ter acesso aos produtos de beleza e estética.</strong>
-      </div>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Projeto 1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img src="../assets/img/imagem.png" alt="Imagem de construção" width="200" height="150">
+                    <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro simples para o usuário ter acesso aos produtos de beleza e estética.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Projeto 2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img src="../assets/img/imagem2.png" alt="Imagem de construção" width="200" height="150">
+                    <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro para o usuário acessar os produtos de materiais de construção.</strong> 
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Projeto 2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <img src="../assets/img/imagem2.png" alt="Imagem de construção" width="200" height="150">
-        <strong>Projeto desenvolvido com o objetivo de fazer um sistema de login e cadastro para o usuário acessar os produtos de materiais de construção.</strong> 
-      </div>
+    
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">Sei o básico de html e já fiz projetos que foi necessário saber sobre html.</p>
+                <p class="card-text"><small class="text-body-secondary"></small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">Sei um pouco de CSS e já fiz alguns projetos que foi necessário fazer o design das telas.</p>
+                <p class="card-text"><small class="text-body-secondary"></small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Já fiz alguns projetos que foi necessário utilizar o JavaScript.</p>
+                <p class="card-text"><small class="text-body-secondary"></small></p>
+            </div>
+        </div>
     </div>
-  </div>
-  </div>
-<div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">HTML</h5>
-      <p class="card-text">Sei o básico de html e já fiz projetos que foi necessário saber sobre html.</p>
-      <p class="card-text"><small class="text-body-secondary"></small></p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">CSS</h5>
-      <p class="card-text">Sei um pouco de CSS e já fiz alguns projetos que foi necessário fazer o design das telas.</p>
-      <p class="card-text"><small class="text-body-secondary"></small></p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">JavaScript</h5>
-      <p class="card-text">Já fiz alguns projetos que foi necessário utilizar o JavaScript.</p>
-      <p class="card-text"><small class="text-body-secondary"></small></p>
-    </div>
-  </div>
-</div>
 </template>
 
 <style>
